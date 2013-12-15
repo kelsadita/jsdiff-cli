@@ -1,7 +1,7 @@
 {
   "name": "jsdiff-cli",
   "description": "JavaScript command line tool to get the difference in the files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/kelsadita/jsdiff-cli",
   "author": {
     "name": "Kalpesh Adhatrao",
