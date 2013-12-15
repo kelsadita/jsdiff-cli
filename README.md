@@ -1,26 +1,31 @@
-# jsdiff-cli [![Build Status](https://secure.travis-ci.org/kelsadita/jsdiff-cli.png?branch=master)](http://travis-ci.org/kelsadita/jsdiff-cli)
+# jsdiff-cli
 
 JavaScript command line tool to get the difference in the files
 
 ## Getting Started
-Install the module with: `npm install jsdiff-cli`
+Install the module with: `npm install -g jsdiff-cli`
 
 ```javascript
-var jsdiff_cli = require('jsdiff-cli');
-jsdiff_cli.awesome(); // "awesome"
+jsdiff file1 file2
 ```
 
+* ```file1``` is a file to compare.
+* ```file2``` is a file to compare with.
+
 ## Documentation
-_(Coming soon)_
+jsdiff-cli is a simple command line tool which prints out the difference between two files using specific highlighting as follows,
+
+1. The part highlighted in ```grey``` colour is the part which is unchanged.
+2. The part highlighted in ```green``` colour is the part which is added.
+3. The part highlighted in ```red``` colour is the part which is removed.
 
 ## Examples
 _(Coming soon)_
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-## Release History
-_(Nothing yet)_
+## Reference
+* jsdiff-cli makes use of [jsdiff](https://github.com/airportyh/jsdiff) library
+* Also it is designed referring to an awesome [blog post](http://javascriptplayground.com/blog/2012/08/writing-a-command-line-node-tool/) for creating a command-line tool using ```nodejs``` and ```Grunt```
 
 ## License
 Copyright (c) 2013 Kalpesh Adhatrao  
